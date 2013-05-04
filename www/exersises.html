@@ -1,0 +1,58 @@
+<div data-role="page" data-theme="a" id="exersises">
+    <div data-role="panel" data-theme="b" id="filter-panel" data-display="reveal">
+        <form>
+            <fieldset data-role="controlgroup" data-mini="true">
+                <input type="checkbox" name="checkbox-v-2a" id="checkbox-v-2a">
+                <label for="checkbox-v-2a">Neck</label>
+                <input type="checkbox" name="checkbox-v-2b" id="checkbox-v-2b">
+                <label for="checkbox-v-2b">Traps (trapezius)</label>
+                <input type="checkbox" name="checkbox-v-2c" id="checkbox-v-2c">
+                <label for="checkbox-v-2c">Shoulders (deltoids)</label>
+                <input type="checkbox" name="checkbox-v-2d" id="checkbox-v-2d">
+                <label for="checkbox-v-2d">Chest (pectoralis)</label>
+            </fieldset>
+            
+            <fieldset data-role="controlgroup" data-mini="true">
+                <input type="checkbox" name="checkbox-v-3a" id="checkbox-v-3a">
+                <label for="checkbox-v-3a">Bands</label>
+                <input type="checkbox" name="checkbox-v-3b" id="checkbox-v-3b">
+                <label for="checkbox-v-3b">Barbell</label>
+                <input type="checkbox" name="checkbox-v-3c" id="checkbox-v-3c">
+                <label for="checkbox-v-3c">Body Weight</label>
+                <input type="checkbox" name="checkbox-v-3d" id="checkbox-v-3d">
+                <label for="checkbox-v-3d">Cable</label>
+            </fieldset>
+        </form>
+    </div><!-- /panel -->
+
+    <div data-role="header" data-id="main-header">
+        <a href="#filter-panel" data-icon="bars"
+           data-iconpos="notext" class="ui-btn-left">Gear</a>
+        <h1>Exersise Database</h1>
+    </div>
+
+	<div data-role="content">
+        <ul data-role="listview" data-filter-theme="a" data-filter="true"
+            data-filter-placeholder="Search..." data-split-icon="gear">
+            <li><a href="#">
+                <img src="../../_assets/img/album-bb.jpg">
+                <h2>Broken Bells</h2>
+                <p>Broken Bells</p></a>
+                <a href="#"></a>
+            </li>
+            <li><a href="#">
+                <img src="../../_assets/img/album-hc.jpg">
+                <h2>Warning</h2>
+                <p>Hot Chip</p></a>
+                <a href="#"></a>
+            </li>
+            <li><a href="#">
+                <img src="../../_assets/img/album-p.jpg">
+                <h2>Wolfgang Amadeus Phoenix</h2>
+                <p>Phoenix</p></a>
+                <a href="#"></a>
+            </li>
+        </ul>
+	</div><!-- /content -->
+
+</div><!-- /page -->
